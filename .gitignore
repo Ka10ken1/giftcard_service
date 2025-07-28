@@ -1,0 +1,55 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build and local runtime
+/build
+/bin
+/dist
+*.log
+
+# Go modules & tools
+go.sum
+go.work
+go.work.sum
+
+# Editor & OS noise
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.*
+*.local
+
+# Dependency management
+vendor/
+
+# Go coverage
+coverage.*
+*.coverprofile
+*.cov
+
+# Generated docs / misc
+*.gen.go
+
+# GORM / SQLite file leftovers (if using SQLite at any point)
+*.db
+*.sqlite
+
+# If using Air (live reloading tool)
+.tmp/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
